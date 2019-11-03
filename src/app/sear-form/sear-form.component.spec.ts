@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SearFormComponent } from './sear-form.component';
+import { SearcFormComponent } from './sear-form.component';
 
-describe('SearFormComponent', () => {
-  let component: SearFormComponent;
-  let fixture: ComponentFixture<SearFormComponent>;
+describe('SearcFormComponent', () => {
+  let component: SearcFormComponent;
+  let fixture: ComponentFixture<SearcFormComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SearFormComponent ]
+      declarations: [ SearcFormComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SearFormComponent);
+    fixture = TestBed.createComponent(SearcFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
