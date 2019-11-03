@@ -1,13 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,EventEmitter, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-sear-form',
-  templateUrl: './sear-form.component.html',
-  styleUrls: ['./sear-form.component.css']
+  selector: 'app-searc-form',
+  templateUrl: './searc-form.component.html',
+  styleUrls: ['./searc-form.component.css']
 })
-export class SearFormComponent implements OnInit {
 
+export class SearcFormComponent implements OnInit {
+
+@Output() emitSearch = new EventEmitter<any>()
+
+  searchTerm:string;
   constructor() { }
+
+  search(){
+    this.emitSearch.emit(this.searchTerm);
+  }
 
   ngOnInit() {
   }
