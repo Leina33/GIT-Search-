@@ -9,6 +9,7 @@ import { SearcFormComponent } from './sear-form/sear-form.component';
 import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DateCountPipe } from './date-count.pipe';
+import { NotFoundComponent } from './not-found/not-found.component';
 // import { NotFoundComponent } from './not-found/not-found.component';
 // import { DateCountPipe } from './date-count.pipe';
 
@@ -22,6 +23,7 @@ import { DateCountPipe } from './date-count.pipe';
     AboutComponent,
     NavbarComponent,
     DateCountPipe,
+    NotFoundComponent,
     // NotFoundComponent,
     // DateCountPipe,
   ],
